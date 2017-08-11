@@ -1,0 +1,76 @@
+/* Balansera Livet Web Styles */
+
+@font-face {
+  font-family: 'Bariol';
+  src: url('./assets/bariol_regular-webfont.woff2') format('woff2'),
+       url('./assets/bariol_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bariol';
+  src: url('./assets/bariol_bold-webfont.woff2') format('woff2'),
+       url('./assets/bariol_bold-webfont.woff') format('woff');
+  font-weight: bold;
+}
+
+html { box-sizing: border-box; }
+* { box-sizing: inherit; }
+
+body {
+  background-color: #FBF7F0;
+  border-top: 4px solid #65B961;
+  color: rgba(0, 0, 0, .87);
+  font: 18px/28px Bariol, sans-serif;
+  margin: 0;
+}
+
+a {
+  border-bottom: 1px solid;
+  color: #FF876B;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 36px;
+  margin-bottom: -8px;
+}
+
+p,
+ul {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+main,
+article {
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: 8px 16px 24px;
+}
+
+article {
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .12); 
+  margin: 12px;
+  max-width: 42rem;
+}
+
+@media only screen and (min-width: 42rem) {
+  article {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

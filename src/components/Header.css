@@ -1,0 +1,23 @@
+.Header {
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+  padding-top: 24px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.Header-title {
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+}
+
+.Header-caption {
+  color: rgba(0, 0, 0, .38);
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  line-height: 24px;
+  margin: 0;
+  text-transform: uppercase;
+}

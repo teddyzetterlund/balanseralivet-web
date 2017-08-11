@@ -1,0 +1,21 @@
+.Product {
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .12); 
+  margin-top: 16px;
+  padding: 24px 12px;
+  text-align: center;
+}
+
+.Product:first-child {
+  margin-top: 8px;
+}
+
+.Product-title {
+  margin-top: 0;
+}
+
+.Product-forthcoming {
+  color: rgba(0, 0, 0, .38);
+  margin-top: 8px;
+}

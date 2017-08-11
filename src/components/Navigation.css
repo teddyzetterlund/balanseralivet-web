@@ -1,0 +1,22 @@
+.Navigation {
+  list-style: none;
+  padding: 16px 0 3px;
+  text-align: center;
+}
+
+.Navigation-link {
+  border-bottom: 0;
+  color: rgba(0, 0, 0, .87);
+  display: inline-block;
+  letter-spacing: .5px;
+  line-height: 40px;
+  min-width: 100px;
+  padding: 0 16px;
+  text-transform: uppercase;
+}
+
+.Navigation-link:hover,
+.Navigation-link:focus,
+.Navigation-link.active {
+  color: #65B961;
+}

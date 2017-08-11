@@ -1,0 +1,16 @@
+.Footer {
+  background-color: #65B961;
+  color: #FFF;
+  margin-top: 16px;
+}
+
+.Footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding: 16px 20px;
+}
+
+.Footer-link {
+  color: #FFF;
+}
