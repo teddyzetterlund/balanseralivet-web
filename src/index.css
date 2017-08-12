@@ -48,9 +48,15 @@ h2 {
 }
 
 p,
+ol,
 ul {
   margin-top: 16px;
   margin-bottom: 0;
+}
+
+ol,
+ul {
+  padding-left: 24px;
 }
 
 main,
