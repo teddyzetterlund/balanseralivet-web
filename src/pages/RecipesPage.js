@@ -11,7 +11,7 @@ const RecipesPage = () =>
     <ul>
       {recipes.map(({title, path}, index) =>
         <li key={`recipe-${index}`}>
-          <Link to={path}>{title}</Link>
+          <Link to={`/recept/${path}`}>{title}</Link>
         </li>
       )}
     </ul>

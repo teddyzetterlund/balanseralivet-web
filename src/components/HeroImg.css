@@ -1,0 +1,12 @@
+.hero-img {
+  background-position: center;
+  background-size: cover;
+  height: 220px;
+  margin-top: 12px;
+}
+
+@media only screen and (min-width: 42rem) {
+  .hero-img {
+    height: 440px;
+  }
+}
