@@ -10,11 +10,13 @@ const HomePage = () =>
     <HeroImg imgPath={heroImg} />
 
     <main>
-      {products.map(({title, path, description}, index) =>
-        <Product title={title} path={path} key={`product-${index}`}>
-          <p>{description}</p>
-        </Product>
-      )}
+      <div className="Products">
+        {products.map(({title, path, description}, index) =>
+          <Product title={title} path={path} key={`product-${index}`}>
+            <p>{description}</p>
+          </Product>
+        )}
+      </div>
     </main>
   </div>
 
